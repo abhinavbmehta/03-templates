@@ -1,8 +1,6 @@
 ---
 title: "xaringan template"
-subtitle: "Young Statisticians Conference 2019"
-author: Alison Hill
-institution: RStudio
+author: Abhinav Mehta
 date: "`r Sys.Date()`"
 output:
   xaringan::moon_reader:
@@ -16,8 +14,6 @@ output:
       highlightLines: true
       countIncrementalSlides: false
       ratio: "16:9"
-params:
-  site_link: "https://ysc-rmarkdown.netlify.com/"
 ---
 
 ```{r setup, include=FALSE}
@@ -32,6 +28,7 @@ knitr::opts_chunk$set(
 ```{r packages, include=FALSE}
 library(countdown)
 library(ymlthis)
+library(tidyverse)
 ```
 
 
@@ -48,12 +45,10 @@ class: title-slide, center, middle
 
 ### `r rmarkdown::metadata$author` &#183; `r rmarkdown::metadata$institution`
 
-#### [`r params$site_link`](`r params$site_link`)
 
 ---
 layout: true
 
-<div class="my-footer"><span>`r params$site_link`</span></div>
 
 ---
 

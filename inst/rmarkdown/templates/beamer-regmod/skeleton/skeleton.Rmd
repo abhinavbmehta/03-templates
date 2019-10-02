@@ -1,0 +1,31 @@
+---
+title: "Regression Modelling"
+author: "Abhinav Mehta"
+date: '`r format(Sys.time(), "%d %B, %Y")`'
+output: 
+    beamer_presentation:
+        theme: "default"
+        color: "beaver"
+        fonttheme: "structuresmallcapsserif"
+        incremental: false
+        includes:
+             in_header: mystyle.tex
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE,
+                      warning = FALSE,
+                      message = FALSE)
+library(tidyverse)
+```
+
+
+## Slide 1
+
+
+## Slide 2
+
+---
+
+Slide 
+
