@@ -7,6 +7,6 @@ Authors@R:
            role = c("aut", "cre"),
            email = "Abhinav.Mehta@anu.edu.au"))
 Description: This house all the templates I will need for my teaching and research work. Currently it has templates that I created for STAT2008 Regression Modelling.
-License: What license it uses
+License: CC0
 Encoding: UTF-8
 LazyData: true
