@@ -1,0 +1,43 @@
+%\pgfdeclareimage[height=1cm, width=2.5cm]{logo}{anu.png}
+%\logo{\pgfuseimage{logo}}
+\usepackage{bbm}
+\setbeamertemplate{navigation symbols}{}
+%\setbeamertemplate{footline}[page number]
+\setbeamertemplate{enumerate items}[default]
+
+\hypersetup{colorlinks,allcolors=.,urlcolor=blue}
+
+\let\tempitone\itemize
+\let\tempittwo\enditemize
+\renewenvironment{itemize}{\tempitone\addtolength{\itemsep}{0.5\baselineskip}}{\tempittwo}
+
+\let\tempenone\enumerate
+\let\tempentwo\endenumerate
+\renewenvironment{enumerate}{\tempenone\addtolength{\itemsep}{0.5\baselineskip}}{\tempentwo}
+
+
+\definecolor{blue}{rgb}{0.0, 0.0, 1.0}
+\definecolor{carminered}{rgb}{1.0, 0.0, 0.22}
+\definecolor{aqua}{rgb}{0.0, 1.0, 1.0}
+\definecolor{officegreen}{rgb}{0.0, 0.5, 0.0}
+\definecolor{orangepeel}{rgb}{1.0, 0.62, 0.0}
+
+
+%\definecolor{UAblue}{rgb}{ 0.5294118 0.8078431 0.9803922}
+%\definecolor{UAred}{rgb}{0.8, 0.0, 0.2}
+%\definecolor{UAgreen}{rgb}{0.5294118, 0.5882353, 0.2156863}
+%\definecolor{UAtan}{rgb}{0.6901961, 0.4352941, 0.0000000}
+\setbeamercolor{alerted text}{fg=carminered}
+
+\setbeamercolor{enumerate item}{fg=blue} 
+
+\newcommand{\tr}{\textcolor{carminered}}
+\newcommand{\tb}{\textcolor{blue}}
+\newcommand{\tg}{\textcolor{officegreen}}
+\newcommand{\ttan}{\textcolor{orangepeel}}
+
+\newcommand{\hl}[1]{\colorbox{yellow}{#1}}
+\newcommand{\iid}{\stackrel{\rm iid}{\sim}}
+\newcommand{\ind}{\stackrel{\rm indep.}{\sim}}
+\newcommand{\bs}{\boldsymbol}
+\newcommand{\wh}{\widehat}

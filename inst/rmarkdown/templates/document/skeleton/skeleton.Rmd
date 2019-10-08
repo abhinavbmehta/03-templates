@@ -1,0 +1,17 @@
+---
+title: "pdf-document"
+author: "Abhinav Mehta"
+date: '`r format(Sys.time(), "%d %B, %Y")`'
+output: 
+  pdf_document:
+    theme: spacelab
+    toc: true
+    number_sections: true
+    highlight: "tango"
+    code_folding: hide
+    includes:
+          in_header: mystyle.tex
+fontsize: 11pt
+geometry: margin=1in
+documentclass: "article"
+---
